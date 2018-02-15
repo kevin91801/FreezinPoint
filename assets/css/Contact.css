@@ -1,0 +1,41 @@
+#map {
+
+}
+
+body {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+nav {
+    color: azure;
+    font-family: Bookman;
+}
+
+h1 {
+	color: azure;
+    font-family: Bookman;
+}
+
+h3 {
+	color: azure;
+    font-family: Bookman;
+}
+
+h4 {
+	color: azure;
+    font-family: Bookman;
+}
+
+.fa:hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+#nav2 {
+    padding: 10px;
+    margin: auto;
+}

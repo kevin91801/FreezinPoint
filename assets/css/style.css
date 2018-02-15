@@ -1,0 +1,51 @@
+body {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+    color: azure;
+    font-family: Bookman;
+}
+
+#nav2 {
+    padding: 10px;
+    margin: auto;
+}
+
+#fb:hover {
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+#in:hover {
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+#yelp:hover {
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+#logo {
+  float: left;
+}
+
+#quote {
+  float: left;
+  padding-top: 120px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  color: white;
+        }
+
+#link {
+  padding-left: 20px;
+}

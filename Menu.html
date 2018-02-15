@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/Menu.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<title>Menu</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="collapse navbar-collapse" id="nav">
+    <div class="container" id="nav2">
+    <ul class="nav navbar-nav navbar-left">
+        <li class="nav-item">
+        <a class="navbar-brand" href="Main.html"><img src="./assets/images/logo.png" height="80px" width="100px"></a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="Menu.html">
+          <br>
+          <h1>Menu</h1>
+          </a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact.html">
+          <br>
+          <h1>Contact</h1></a></li>
+    </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+    <div class="container">
+        <li class="nav-item" id="logo">
+        <a target="_blank" title="Find us on Facebook" href="http://www.facebook.com/TheFreezinPoint"><i class="fa fa-facebook-square" style="font-size:48px;color:DodgerBlue"></i></a> 
+        </li>
+    </ul>
+    </div>
+		</div>
+
+	</nav>
+	<div class="container">
+		<div class="container" id="rolls">
+			<br>
+			<h1 id="heading">Specialty Rolls</h1>
+      <h6 style="color: azure;
+          font-family: Bookman;"
+      >Click on images for details</h6>
+			<img class="roll" src="./assets/images/halohalo.png" height="250px" width="200px" id="halo">
+			<img class="roll" src="./assets/images/strawberry.png" height="250px" width="200px" id="strawberry">
+			<img class="roll" src="./assets/images/nutella.png" height="250px" width="200px" id="nutella">
+			<img class="roll" src="./assets/images/PA.png" height="250px" width="200px" id="pandan">
+			<img class="roll" src="./assets/images/matcha.png" height="250px" width="200px" id="matcha">
+			<img class="roll" src="./assets/images/cc.png" height="250px" width="200px" id="cc">
+			<img class="roll" src="./assets/images/chamango.png" height="250px" width="200px" id="chamango">
+			<img class="roll" src="./assets/images/smores.png" height="250px" width="200px" id="smores">
+			<img class="roll" src="./assets/images/TTO.png" height="250px" width="200px" id="thai">
+			<img class="roll" src="./assets/images/milktea.png" height="250px" width="200px" id="milk">
+			<img class="roll" src="./assets/images/saltedcaramel.png" height="250px" width="200px" id="caramel">
+			<img class="roll" src="./assets/images/Fruity.png" height="250px" width="200px" id="fruity">
+			<img class="roll" src="./assets/images/bluemint.png" height="250px" width="200px" id="mint">
+		</div>
+		<div class="container" id="taco">
+			<br>
+			<h1 id="heading2">Taco Ice Cream Rolls</h1>
+			<img class="roll" src="./assets/images/barnie.png" height="250px" width="250px" id="barnie">
+			<img class="roll" src="./assets/images/kookiemonster.png" height="250px" width="250px" id="kookie">
+			<img class="roll" src="./assets/images/unicornsPebbles.png" height="250px" width="250px" id="UP">
+		</div>
+
+	<div id="modal" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Halo Halo</h2><strong>
+      </header>
+      	<div class="w3-container">
+    		<img src="./assets/images/HHdetail.png" height="800px" width="800px" id="halo">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal2" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal2').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Strawberry Cheesecake</h2><strong>
+      </header>
+    	<div class="w3-container">
+    		<img src="./assets/images/strawberrydetail.png" height="800px" width="800px" id="strawberry">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal3" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+       	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal3').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Nutella Strawberry Banana</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/nutelladetail.png" height="800px" width="800px" id="nutella">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal4" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal4').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Pandan</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/PAdetail.png" height="800px" width="800px" id="pandan">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal5" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal5').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Matcha</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/matchadetail.png" height="800px" width="800px" id="matcha">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal6" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal6').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Cookies n Creme</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/CCdetail.png" height="800px" width="800px" id="matcha">
+    	</div>
+
+      		</footer>
+  		</div>
+	</div>
+	<div id="modal7" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal7').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Cha Mango</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/chamangodetail.png" height="800px" width="800px" id="mango">
+    	</div>
+
+      		</footer>
+  		</div>
+	</div>
+	<div id="modal8" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal8').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>S'mores</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/smoresdetail.png" height="800px" width="800px" id="smores">
+    	</div>
+
+      		</footer>
+  		</div>
+	</div>
+	<div id="modal9" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal9').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Thai Tea Oreo</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/TTOdetail.png" height="800px" width="800px" id="TT">
+    	</div>
+
+      		</footer>
+  		</div>
+	</div>
+	<div id="modal10" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal10').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Milk Tea</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/MTdetail.png" height="800px" width="800px" id="MT">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal11" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal11').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Salted Caramel</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/saltedcarameldetail.png" height="800px" width="800px" id="salt">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal12" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal12').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Fruity Pebbles</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/Fruitydetail.png" height="800px" width="800px" id="fruit">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal13" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal13').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Blue Mint</h2><strong>
+      </header>
+    		<div class="w3-container">
+    		<img src="./assets/images/bluemintdetail.png" height="800px" width="800px" id="mint">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal14" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal14').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Barnie</h2><strong>
+      </header>
+      	<div class="w3-container">
+    		<img src="./assets/images/barniedetail.png" height="800px" width="800px" id="Barnie">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal15" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal15').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Kookie Monster</h2><strong>
+      </header>
+      	<div class="w3-container">
+    		<img src="./assets/images/KMdetail.png" height="800px" width="800px" id="km">
+    	</div>
+
+  		</div>
+	</div>
+	<div id="modal16" class="w3-modal">
+  		<div class="w3-modal-content w3-animate-opacity w3-card-4" style="max-width: 800px" style="max-width: 800px">
+      	<header class="w3-container w3-teal" style="text-align:center"> 
+        <span onclick="document.getElementById('modal16').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2><strong>Unicorn's Pebbles</h2><strong>
+      </header>
+      	<div class="w3-container">
+    		<img src="./assets/images/UPdetail.png" height="800px" width="800px" id="up">
+    	</div>
+
+  		</div>
+	</div>
+
+	</div>
+
+<script src="./assets/js/Menu.js"></script>
+</body>
+</html>
