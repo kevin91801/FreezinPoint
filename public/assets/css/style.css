@@ -37,6 +37,7 @@ nav {
   float: left;
   padding-top: 120px;
   width: 40%;
+  padding-right: 100px;
 }
 
 footer {
@@ -53,7 +54,7 @@ footer {
 
 #pic {
   height: 800px;
-  width: 60%;
+  width: 57%;
   float: left;
 }
 
