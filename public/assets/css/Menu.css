@@ -42,15 +42,11 @@ body {
     background-size: cover;
 }
 
-#heading {
+.heading {
     color: azure;
     font-family: Bookman;
 }
 
-#heading2 {
-    color: azure;
-    font-family: Bookman;
-}
 
 header {
     color: azure;
@@ -79,4 +75,17 @@ nav {
 #yelp:hover {
   text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
   transform: translate(0, -8);
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  color: white;
+        }
+
+li {
+  color: azure;
+  font-family: Bookman;
 }
