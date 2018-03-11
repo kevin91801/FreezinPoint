@@ -84,3 +84,13 @@ footer {
     width: 90%;
   }
 }
+
+#carousel {
+  clear: both;
+  
+}
+
+.d-block.w-100 {
+  width: 70%;
+  height: 35%;
+}
