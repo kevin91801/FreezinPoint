@@ -58,30 +58,30 @@ footer {
   float: left;
 }
 
-@media all and (max-width: 900px) {
-  .main_articles {
-    width: 90%;
+@media all and (max-width: 768px) {
+  #pic {
+    width: 100%;
+    float: left;
   }
-  .side_article {
-    width: 90%;
+  #quote {
+    width: 100%;
+    float: left;
+    padding-left: 70px;
   }
-}
-
-@media all and (max-width: 700px) {
-  .main_articles {
-    width: 90%;
+  nav {
+    width: 100%;
   }
-  .side_article {
-    width: 90%;
+  .nav-item {
+    width: 100%;
+    float: none;
   }
-}
-
-@media all and (max-width: 500px) {
-  .main_articles {
-    width: 90%;
+  #carousel {
+    clear: both;
   }
-  .side_article {
-    width: 90%;
+  #link {
+    height: 50%;
+    width: 50%;
+    float: right;
   }
 }
 
