@@ -111,6 +111,14 @@ li {
     display: block;
     text-align: left;
   }
+  .w3-modal {
+    height: 60%;
+    width: 80%;
+  }
+  .pic {
+    height: 60%;
+    width: 90%;
+  }
 }
 
 .topnav {

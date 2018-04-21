@@ -60,16 +60,17 @@ footer {
 
 @media all and (max-width: 768px) {
   #pic {
-    width: 100%;
+    width: 50%%;
+    height: 65%;
     float: left;
   }
   #quote {
-    width: 100%;
+    width: 60%;
     float: left;
-    padding-left: 70px;
+    padding-left: 100px;
   }
-  #carousel {
-    clear: both;
+  #jssor_1 {
+    width: 50%;
   }
   #link {
     height: 40%;
