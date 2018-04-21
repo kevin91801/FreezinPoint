@@ -60,17 +60,18 @@ footer {
 
 @media all and (max-width: 768px) {
   #pic {
-    width: 50%%;
-    height: 65%;
+    width: 30%%;
+    height: 35%;
     float: left;
   }
   #quote {
-    width: 60%;
+    width: 40%;
     float: left;
-    padding-left: 100px;
+    padding-left: 50px;
   }
   #jssor_1 {
-    width: 50%;
+    width: 40%;
+    height: 40%
   }
   #link {
     height: 40%;
@@ -104,7 +105,6 @@ footer {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  width: 100%;
 }
 
 .topnav a {
