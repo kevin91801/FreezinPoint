@@ -114,6 +114,9 @@ li {
   .w3-modal {
     height: 60%;
     width: 80%;
+    position: fixed;
+    left: 35px;
+    top: 75px;
   }
   .pic {
     height: 60%;

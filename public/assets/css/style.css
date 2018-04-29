@@ -1,7 +1,8 @@
-body {
+html {
 	background-image: url("../images/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+  min-height: 100%;
 }
 
 nav {
@@ -59,30 +60,34 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+  #carousel {
+    display: none;
+  }
   #pic {
     width: 30%%;
     height: 35%;
-    float: left;
+    clear: both;
+
   }
   #quote {
     width: 40%;
-    float: left;
+    clear: both;
     padding-left: 50px;
+
   }
-  #jssor_1 {
-    width: 40%;
-    height: 40%
-  }
+
   #link {
-    height: 40%;
-    width: 40%;
+    height: 20%;
+    width: 20%;
     float: right;
+    display: none;
   }
   #menu-icon {
 
     display:inline-block;
 
   }
+
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -131,9 +136,6 @@ footer {
   display: none;
 }
 
-#carousel {
-  clear: both;
-  
 }
 
 .d-block.w-100 {
